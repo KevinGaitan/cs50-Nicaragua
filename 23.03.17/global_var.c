@@ -2,19 +2,20 @@
 #include <cs50.h>
 #include <stdlib.h>
 
-void cambio(numero);
+void cambio(void);
 
+int numero;
 
 int main(void){
     
-    int numero = 12;
+    numero = 12;
     printf("El numero es %d\n",numero);
-    cambio(numero);
+    cambio();
     
     printf("El numero es %d\n",numero);
     return 0;
 }
 
-void cambio(int numero){
+void cambio(void){
     numero = 2;
 }
