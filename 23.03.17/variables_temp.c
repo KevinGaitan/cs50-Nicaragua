@@ -2,7 +2,7 @@
 #include <cs50.h>
 #include <stdlib.h>
 
-void cambio(numero);
+void cambio(int numero);
 
 
 int main(void){

@@ -5,7 +5,7 @@ int myPow(int number,int elevate);
 
 int main(void){
     
-    printf("%d\n",myPow(2,8));
+    printf("%d\n",myPow(2,3));
     return 0;
 }
 

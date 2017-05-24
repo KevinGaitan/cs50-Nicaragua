@@ -3,10 +3,8 @@
 
 int main(void){
     int height,vuelta,k;
-    do{
         printf("Height: ");
         height = GetInt();
-    }while(height > 23 || height < 0);
     
     for(int i = 1; i <= height ; i++){
         for(int j = 0; j < height - i; j++){

@@ -1,18 +1,18 @@
 #include <stdio.h> 
 #include <cs50.h>
 //Variaveis globais 
-int nmatriz = 0; 
-void gerarMatriz(int matriz); 
+int n1matriz = 0; 
+void gerarMatriz(int nmatriz); 
  
 //Funcao principal 
 int main(){ 
     printf("diga o tamaño da matriz\n"); 
-    nmatriz= GetInt();
-    gerarMatriz(nmatriz); 
+    n1matriz= GetInt();
+    gerarMatriz(n1matriz); 
 } 
  
 //Funcao que gera a matriz en caracol 
-void gerarMatriz(int matriz){ 
+void gerarMatriz(int nmatriz){ 
     int i,j; 
     int countTotal = 1,tamanioTotal = nmatriz*nmatriz; 
     int fila = 0, check = nmatriz, band = 1; 

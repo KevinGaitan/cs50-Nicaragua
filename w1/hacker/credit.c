@@ -4,7 +4,7 @@
 
 int main(void){
     
-    printf("Number: ");
+    
     long l = GetLongLong();   
     int size = log10(l) + 1;
     
